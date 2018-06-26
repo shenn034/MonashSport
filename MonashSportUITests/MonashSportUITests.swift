@@ -29,8 +29,22 @@ class MonashSportUITests: XCTestCase {
     }
     
     func testExample() {
-        // Use recording to get started writing UI tests.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
+        
+        
+        
+        let app = XCUIApplication()
+        app.children(matching: .window).element(boundBy: 0).children(matching: .other).element.children(matching: .other).element.children(matching: .other).element.children(matching: .other).element.children(matching: .other).element.children(matching: .other).element.children(matching: .other).element.children(matching: .other).element.children(matching: .other).element.children(matching: .staticText).matching(identifier: "0.0").element(boundBy: 0).tap()
+        XCTAssertTrue(app.staticTexts["Cals"].exists)
+        
     }
     
+    func testTableVIew(){
+        
+        let app = XCUIApplication()
+        app.navigationBars["Home"].children(matching: .button).matching(identifier: "Item").element(boundBy: 0).tap()
+        app.staticTexts["Friends"].tap()
+        XCTAssertTrue(app.tables/*@START_MENU_TOKEN@*/.staticTexts["test"]/*[[".cells.staticTexts[\"test\"]",".staticTexts[\"test\"]"],[[[-1,1],[-1,0]]],[0]]@END_MENU_TOKEN@*/.exists)
+        
+        
+    }
 }

@@ -7,14 +7,48 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		122E3196D03DA3CBD2BFCBC2 /* Pods_MonashSportTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8AA4712704805DE7945E920A /* Pods_MonashSportTests.framework */; };
+		640EC03620AC052800859192 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 640EC03520AC052800859192 /* HomeViewController.swift */; };
+		644CC09620C7C7490050808D /* PostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 644CC09520C7C7490050808D /* PostCell.swift */; };
+		644CC09820C8ED1C0050808D /* Runs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 644CC09720C8ED1C0050808D /* Runs.swift */; };
+		644CC09A20CA822D0050808D /* HistoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 644CC09920CA822D0050808D /* HistoryCell.swift */; };
+		644CC09C20CA824C0050808D /* HistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 644CC09B20CA824C0050808D /* HistoryViewController.swift */; };
+		6463FC8A2991C1A1D22B99B7 /* Pods_MonashSport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B7F5B888B05DD856BEB582A /* Pods_MonashSport.framework */; };
+		6467F37B20AFFB9E00833F2D /* WorkoutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6467F37A20AFFB9E00833F2D /* WorkoutViewController.swift */; };
+		6467F37E20B017DD00833F2D /* UnitExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6467F37D20B017DD00833F2D /* UnitExtensions.swift */; };
+		6467F38020B0181700833F2D /* FormatDisplay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6467F37F20B0181700833F2D /* FormatDisplay.swift */; };
+		6467F38220B0186400833F2D /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6467F38120B0186400833F2D /* LocationManager.swift */; };
+		6467F3CC20B1291400833F2D /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6467F3CB20B1291400833F2D /* CoreData.framework */; };
+		6467F3CE20B1342700833F2D /* CoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6467F3CD20B1342700833F2D /* CoreDataStack.swift */; };
+		648A935320B13CE50066BDB2 /* Run+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 648A934F20B13CE50066BDB2 /* Run+CoreDataClass.swift */; };
+		648A935420B13CE50066BDB2 /* Run+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 648A935020B13CE50066BDB2 /* Run+CoreDataProperties.swift */; };
+		648A935520B13CE50066BDB2 /* Location+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 648A935120B13CE50066BDB2 /* Location+CoreDataClass.swift */; };
+		648A935620B13CE50066BDB2 /* Location+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 648A935220B13CE50066BDB2 /* Location+CoreDataProperties.swift */; };
+		648A935820B152C10066BDB2 /* MulticolorPolyline.swift in Sources */ = {isa = PBXBuildFile; fileRef = 648A935720B152C10066BDB2 /* MulticolorPolyline.swift */; };
+		648A935A20B431B70066BDB2 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 648A935920B431B70066BDB2 /* SignUpViewController.swift */; };
+		648A935C20B4431C0066BDB2 /* ReportViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 648A935B20B4431C0066BDB2 /* ReportViewController.swift */; };
+		648A935E20B445CD0066BDB2 /* RankingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 648A935D20B445CD0066BDB2 /* RankingViewController.swift */; };
+		648A936020B445D30066BDB2 /* EshopViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 648A935F20B445D30066BDB2 /* EshopViewController.swift */; };
+		648A936420B491420066BDB2 /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 648A936320B491420066BDB2 /* SettingViewController.swift */; };
+		64A0BCE220B52D8A0001D546 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64A0BCE120B52D8A0001D546 /* Post.swift */; };
+		64A0BCE420B7E53C0001D546 /* UserCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64A0BCE320B7E53C0001D546 /* UserCell.swift */; };
+		64A0BCEA20B7F41A0001D546 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 64A0BCE920B7F4190001D546 /* Assets.xcassets */; };
+		64A0BCEC20B7FCB40001D546 /* FriendsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64A0BCEB20B7FCB40001D546 /* FriendsViewController.swift */; };
+		64A0BCF120B803E80001D546 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64A0BCF020B803E80001D546 /* User.swift */; };
+		64A0BCF320B80BF30001D546 /* MeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64A0BCF220B80BF30001D546 /* MeViewController.swift */; };
+		64A0BCF520B837140001D546 /* AddFriendsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64A0BCF420B837140001D546 /* AddFriendsViewController.swift */; };
+		64A0BCF720B837630001D546 /* SearchUserCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64A0BCF620B837630001D546 /* SearchUserCell.swift */; };
 		64C3C4CD20A1AC440050B220 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64C3C4CC20A1AC440050B220 /* AppDelegate.swift */; };
 		64C3C4CF20A1AC440050B220 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64C3C4CE20A1AC440050B220 /* ViewController.swift */; };
 		64C3C4D220A1AC440050B220 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 64C3C4D020A1AC440050B220 /* Main.storyboard */; };
 		64C3C4D520A1AC440050B220 /* MonashSport.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 64C3C4D320A1AC440050B220 /* MonashSport.xcdatamodeld */; };
-		64C3C4D720A1AC450050B220 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 64C3C4D620A1AC450050B220 /* Assets.xcassets */; };
 		64C3C4DA20A1AC450050B220 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 64C3C4D820A1AC450050B220 /* LaunchScreen.storyboard */; };
 		64C3C4E520A1AC450050B220 /* MonashSportTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64C3C4E420A1AC450050B220 /* MonashSportTests.swift */; };
 		64C3C4F020A1AC450050B220 /* MonashSportUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64C3C4EF20A1AC450050B220 /* MonashSportUITests.swift */; };
+		64C3C4FE20A1B0D80050B220 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 64C3C4FD20A1B0D80050B220 /* GoogleService-Info.plist */; };
+		64D5DBE520B4B8A500D99517 /* NewPostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64D5DBE420B4B8A500D99517 /* NewPostViewController.swift */; };
+		64D5DBE920B50F5300D99517 /* MomentsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64D5DBE820B50F5300D99517 /* MomentsViewController.swift */; };
+		D51449A8BF71010E018C50E1 /* Pods_MonashSportUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB5CE0A43394405304AEF15C /* Pods_MonashSportUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,12 +69,40 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		640EC03520AC052800859192 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		644CC09520C7C7490050808D /* PostCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostCell.swift; sourceTree = "<group>"; };
+		644CC09720C8ED1C0050808D /* Runs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Runs.swift; sourceTree = "<group>"; };
+		644CC09920CA822D0050808D /* HistoryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryCell.swift; sourceTree = "<group>"; };
+		644CC09B20CA824C0050808D /* HistoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryViewController.swift; sourceTree = "<group>"; };
+		6467F37A20AFFB9E00833F2D /* WorkoutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WorkoutViewController.swift; sourceTree = "<group>"; };
+		6467F37D20B017DD00833F2D /* UnitExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnitExtensions.swift; sourceTree = "<group>"; };
+		6467F37F20B0181700833F2D /* FormatDisplay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormatDisplay.swift; sourceTree = "<group>"; };
+		6467F38120B0186400833F2D /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		6467F3CB20B1291400833F2D /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		6467F3CD20B1342700833F2D /* CoreDataStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataStack.swift; sourceTree = "<group>"; };
+		648A934F20B13CE50066BDB2 /* Run+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Run+CoreDataClass.swift"; sourceTree = "<group>"; };
+		648A935020B13CE50066BDB2 /* Run+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Run+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		648A935120B13CE50066BDB2 /* Location+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Location+CoreDataClass.swift"; sourceTree = "<group>"; };
+		648A935220B13CE50066BDB2 /* Location+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Location+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		648A935720B152C10066BDB2 /* MulticolorPolyline.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MulticolorPolyline.swift; sourceTree = "<group>"; };
+		648A935920B431B70066BDB2 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		648A935B20B4431C0066BDB2 /* ReportViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReportViewController.swift; sourceTree = "<group>"; };
+		648A935D20B445CD0066BDB2 /* RankingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RankingViewController.swift; sourceTree = "<group>"; };
+		648A935F20B445D30066BDB2 /* EshopViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EshopViewController.swift; sourceTree = "<group>"; };
+		648A936320B491420066BDB2 /* SettingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
+		64A0BCE120B52D8A0001D546 /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		64A0BCE320B7E53C0001D546 /* UserCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserCell.swift; sourceTree = "<group>"; };
+		64A0BCE920B7F4190001D546 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		64A0BCEB20B7FCB40001D546 /* FriendsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsViewController.swift; sourceTree = "<group>"; };
+		64A0BCF020B803E80001D546 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		64A0BCF220B80BF30001D546 /* MeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeViewController.swift; sourceTree = "<group>"; };
+		64A0BCF420B837140001D546 /* AddFriendsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddFriendsViewController.swift; sourceTree = "<group>"; };
+		64A0BCF620B837630001D546 /* SearchUserCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchUserCell.swift; sourceTree = "<group>"; };
 		64C3C4C920A1AC440050B220 /* MonashSport.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MonashSport.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		64C3C4CC20A1AC440050B220 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		64C3C4CE20A1AC440050B220 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		64C3C4D120A1AC440050B220 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		64C3C4D420A1AC440050B220 /* MonashSport.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MonashSport.xcdatamodel; sourceTree = "<group>"; };
-		64C3C4D620A1AC450050B220 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		64C3C4D920A1AC450050B220 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		64C3C4DB20A1AC450050B220 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		64C3C4E020A1AC450050B220 /* MonashSportTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MonashSportTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -49,6 +111,18 @@
 		64C3C4EB20A1AC450050B220 /* MonashSportUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MonashSportUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		64C3C4EF20A1AC450050B220 /* MonashSportUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonashSportUITests.swift; sourceTree = "<group>"; };
 		64C3C4F120A1AC450050B220 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		64C3C4FD20A1B0D80050B220 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		64D5DBE420B4B8A500D99517 /* NewPostViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewPostViewController.swift; sourceTree = "<group>"; };
+		64D5DBE820B50F5300D99517 /* MomentsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MomentsViewController.swift; sourceTree = "<group>"; };
+		66340A8B333A6DA1DA022EA3 /* Pods-MonashSport.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MonashSport.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MonashSport/Pods-MonashSport.debug.xcconfig"; sourceTree = "<group>"; };
+		6B7F5B888B05DD856BEB582A /* Pods_MonashSport.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MonashSport.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		88339AB6F26C6373F2D73DD8 /* Pods-MonashSportTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MonashSportTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MonashSportTests/Pods-MonashSportTests.release.xcconfig"; sourceTree = "<group>"; };
+		8AA4712704805DE7945E920A /* Pods_MonashSportTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MonashSportTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD662405908A69AC3F6324C1 /* Pods-MonashSportTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MonashSportTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MonashSportTests/Pods-MonashSportTests.debug.xcconfig"; sourceTree = "<group>"; };
+		AEEB58F5B334EA654E958164 /* Pods-MonashSport.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MonashSport.release.xcconfig"; path = "Pods/Target Support Files/Pods-MonashSport/Pods-MonashSport.release.xcconfig"; sourceTree = "<group>"; };
+		C2DA8639EE2B5775197DC6E7 /* Pods-MonashSportUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MonashSportUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MonashSportUITests/Pods-MonashSportUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		DB5CE0A43394405304AEF15C /* Pods_MonashSportUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MonashSportUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB354894E3953A5FC24AA727 /* Pods-MonashSportUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MonashSportUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MonashSportUITests/Pods-MonashSportUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +130,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6467F3CC20B1291400833F2D /* CoreData.framework in Frameworks */,
+				6463FC8A2991C1A1D22B99B7 /* Pods_MonashSport.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +139,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				122E3196D03DA3CBD2BFCBC2 /* Pods_MonashSportTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,19 +147,84 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D51449A8BF71010E018C50E1 /* Pods_MonashSportUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0682FC3F84E2AC6F0E4D1B39 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6467F3CB20B1291400833F2D /* CoreData.framework */,
+				6B7F5B888B05DD856BEB582A /* Pods_MonashSport.framework */,
+				8AA4712704805DE7945E920A /* Pods_MonashSportTests.framework */,
+				DB5CE0A43394405304AEF15C /* Pods_MonashSportUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		64A0BCED20B802CC0001D546 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				6467F37A20AFFB9E00833F2D /* WorkoutViewController.swift */,
+				648A936320B491420066BDB2 /* SettingViewController.swift */,
+				640EC03520AC052800859192 /* HomeViewController.swift */,
+				64C3C4CE20A1AC440050B220 /* ViewController.swift */,
+				648A935920B431B70066BDB2 /* SignUpViewController.swift */,
+				648A935B20B4431C0066BDB2 /* ReportViewController.swift */,
+				648A935D20B445CD0066BDB2 /* RankingViewController.swift */,
+				648A935F20B445D30066BDB2 /* EshopViewController.swift */,
+				64D5DBE420B4B8A500D99517 /* NewPostViewController.swift */,
+				64D5DBE820B50F5300D99517 /* MomentsViewController.swift */,
+				64A0BCEB20B7FCB40001D546 /* FriendsViewController.swift */,
+				64A0BCF220B80BF30001D546 /* MeViewController.swift */,
+				64A0BCF420B837140001D546 /* AddFriendsViewController.swift */,
+				644CC09B20CA824C0050808D /* HistoryViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		64A0BCEE20B803410001D546 /* CustomCell */ = {
+			isa = PBXGroup;
+			children = (
+				64A0BCE320B7E53C0001D546 /* UserCell.swift */,
+				64A0BCF620B837630001D546 /* SearchUserCell.swift */,
+				644CC09520C7C7490050808D /* PostCell.swift */,
+				644CC09920CA822D0050808D /* HistoryCell.swift */,
+			);
+			path = CustomCell;
+			sourceTree = "<group>";
+		};
+		64A0BCEF20B803770001D546 /* Objects */ = {
+			isa = PBXGroup;
+			children = (
+				64A0BCE120B52D8A0001D546 /* Post.swift */,
+				6467F3CD20B1342700833F2D /* CoreDataStack.swift */,
+				6467F37D20B017DD00833F2D /* UnitExtensions.swift */,
+				6467F37F20B0181700833F2D /* FormatDisplay.swift */,
+				6467F38120B0186400833F2D /* LocationManager.swift */,
+				648A935720B152C10066BDB2 /* MulticolorPolyline.swift */,
+				64A0BCF020B803E80001D546 /* User.swift */,
+				644CC09720C8ED1C0050808D /* Runs.swift */,
+			);
+			path = Objects;
+			sourceTree = "<group>";
+		};
 		64C3C4C020A1AC440050B220 = {
 			isa = PBXGroup;
 			children = (
+				648A934F20B13CE50066BDB2 /* Run+CoreDataClass.swift */,
+				648A935020B13CE50066BDB2 /* Run+CoreDataProperties.swift */,
+				648A935120B13CE50066BDB2 /* Location+CoreDataClass.swift */,
+				648A935220B13CE50066BDB2 /* Location+CoreDataProperties.swift */,
 				64C3C4CB20A1AC440050B220 /* MonashSport */,
 				64C3C4E320A1AC450050B220 /* MonashSportTests */,
 				64C3C4EE20A1AC450050B220 /* MonashSportUITests */,
 				64C3C4CA20A1AC440050B220 /* Products */,
+				DF94A89FFCEE38D27422AD76 /* Pods */,
+				0682FC3F84E2AC6F0E4D1B39 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,10 +241,13 @@
 		64C3C4CB20A1AC440050B220 /* MonashSport */ = {
 			isa = PBXGroup;
 			children = (
-				64C3C4CC20A1AC440050B220 /* AppDelegate.swift */,
-				64C3C4CE20A1AC440050B220 /* ViewController.swift */,
+				64A0BCE920B7F4190001D546 /* Assets.xcassets */,
+				64A0BCEF20B803770001D546 /* Objects */,
+				64A0BCEE20B803410001D546 /* CustomCell */,
+				64A0BCED20B802CC0001D546 /* Controller */,
+				64C3C4FD20A1B0D80050B220 /* GoogleService-Info.plist */,
 				64C3C4D020A1AC440050B220 /* Main.storyboard */,
-				64C3C4D620A1AC450050B220 /* Assets.xcassets */,
+				64C3C4CC20A1AC440050B220 /* AppDelegate.swift */,
 				64C3C4D820A1AC450050B220 /* LaunchScreen.storyboard */,
 				64C3C4DB20A1AC450050B220 /* Info.plist */,
 				64C3C4D320A1AC440050B220 /* MonashSport.xcdatamodeld */,
@@ -128,6 +273,19 @@
 			path = MonashSportUITests;
 			sourceTree = "<group>";
 		};
+		DF94A89FFCEE38D27422AD76 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				66340A8B333A6DA1DA022EA3 /* Pods-MonashSport.debug.xcconfig */,
+				AEEB58F5B334EA654E958164 /* Pods-MonashSport.release.xcconfig */,
+				AD662405908A69AC3F6324C1 /* Pods-MonashSportTests.debug.xcconfig */,
+				88339AB6F26C6373F2D73DD8 /* Pods-MonashSportTests.release.xcconfig */,
+				C2DA8639EE2B5775197DC6E7 /* Pods-MonashSportUITests.debug.xcconfig */,
+				EB354894E3953A5FC24AA727 /* Pods-MonashSportUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +293,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 64C3C4F420A1AC450050B220 /* Build configuration list for PBXNativeTarget "MonashSport" */;
 			buildPhases = (
+				89225DCC0A004B87EE765967 /* [CP] Check Pods Manifest.lock */,
 				64C3C4C520A1AC440050B220 /* Sources */,
 				64C3C4C620A1AC440050B220 /* Frameworks */,
 				64C3C4C720A1AC440050B220 /* Resources */,
+				4BFC9A5DD1AEB9B02B8D75CB /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -152,6 +312,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 64C3C4F720A1AC450050B220 /* Build configuration list for PBXNativeTarget "MonashSportTests" */;
 			buildPhases = (
+				35E8C5FE4F32613B23EFB01C /* [CP] Check Pods Manifest.lock */,
 				64C3C4DC20A1AC450050B220 /* Sources */,
 				64C3C4DD20A1AC450050B220 /* Frameworks */,
 				64C3C4DE20A1AC450050B220 /* Resources */,
@@ -170,6 +331,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 64C3C4FA20A1AC450050B220 /* Build configuration list for PBXNativeTarget "MonashSportUITests" */;
 			buildPhases = (
+				22BEABE25133892AF76C0940 /* [CP] Check Pods Manifest.lock */,
 				64C3C4E720A1AC450050B220 /* Sources */,
 				64C3C4E820A1AC450050B220 /* Frameworks */,
 				64C3C4E920A1AC450050B220 /* Resources */,
@@ -196,6 +358,11 @@
 				TargetAttributes = {
 					64C3C4C820A1AC440050B220 = {
 						CreatedOnToolsVersion = 9.3;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
 					};
 					64C3C4DF20A1AC450050B220 = {
 						CreatedOnToolsVersion = 9.3;
@@ -233,8 +400,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				64C3C4DA20A1AC450050B220 /* LaunchScreen.storyboard in Resources */,
-				64C3C4D720A1AC450050B220 /* Assets.xcassets in Resources */,
+				64C3C4FE20A1B0D80050B220 /* GoogleService-Info.plist in Resources */,
 				64C3C4D220A1AC440050B220 /* Main.storyboard in Resources */,
+				64A0BCEA20B7F41A0001D546 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -254,14 +422,130 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		22BEABE25133892AF76C0940 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MonashSportUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		35E8C5FE4F32613B23EFB01C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MonashSportTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4BFC9A5DD1AEB9B02B8D75CB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-MonashSport/Pods-MonashSport-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/MJRefresh/MJRefresh.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftChart/SwiftChart.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftProgressHUD/SwiftProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MJRefresh.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftChart.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MonashSport/Pods-MonashSport-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		89225DCC0A004B87EE765967 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MonashSport-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		64C3C4C520A1AC440050B220 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				64A0BCF720B837630001D546 /* SearchUserCell.swift in Sources */,
+				64A0BCF320B80BF30001D546 /* MeViewController.swift in Sources */,
+				644CC09620C7C7490050808D /* PostCell.swift in Sources */,
+				648A935C20B4431C0066BDB2 /* ReportViewController.swift in Sources */,
+				64A0BCE220B52D8A0001D546 /* Post.swift in Sources */,
+				644CC09A20CA822D0050808D /* HistoryCell.swift in Sources */,
+				648A935520B13CE50066BDB2 /* Location+CoreDataClass.swift in Sources */,
+				644CC09C20CA824C0050808D /* HistoryViewController.swift in Sources */,
+				64A0BCF120B803E80001D546 /* User.swift in Sources */,
 				64C3C4CF20A1AC440050B220 /* ViewController.swift in Sources */,
+				6467F38020B0181700833F2D /* FormatDisplay.swift in Sources */,
+				6467F37E20B017DD00833F2D /* UnitExtensions.swift in Sources */,
+				648A935420B13CE50066BDB2 /* Run+CoreDataProperties.swift in Sources */,
 				64C3C4D520A1AC440050B220 /* MonashSport.xcdatamodeld in Sources */,
+				6467F38220B0186400833F2D /* LocationManager.swift in Sources */,
+				648A936020B445D30066BDB2 /* EshopViewController.swift in Sources */,
+				648A935820B152C10066BDB2 /* MulticolorPolyline.swift in Sources */,
+				64A0BCE420B7E53C0001D546 /* UserCell.swift in Sources */,
+				6467F3CE20B1342700833F2D /* CoreDataStack.swift in Sources */,
+				64A0BCF520B837140001D546 /* AddFriendsViewController.swift in Sources */,
+				648A935E20B445CD0066BDB2 /* RankingViewController.swift in Sources */,
+				648A935A20B431B70066BDB2 /* SignUpViewController.swift in Sources */,
+				648A935620B13CE50066BDB2 /* Location+CoreDataProperties.swift in Sources */,
+				644CC09820C8ED1C0050808D /* Runs.swift in Sources */,
+				64A0BCEC20B7FCB40001D546 /* FriendsViewController.swift in Sources */,
+				648A936420B491420066BDB2 /* SettingViewController.swift in Sources */,
+				6467F37B20AFFB9E00833F2D /* WorkoutViewController.swift in Sources */,
+				64D5DBE520B4B8A500D99517 /* NewPostViewController.swift in Sources */,
+				64D5DBE920B50F5300D99517 /* MomentsViewController.swift in Sources */,
 				64C3C4CD20A1AC440050B220 /* AppDelegate.swift in Sources */,
+				640EC03620AC052800859192 /* HomeViewController.swift in Sources */,
+				648A935320B13CE50066BDB2 /* Run+CoreDataClass.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -432,9 +716,11 @@
 		};
 		64C3C4F520A1AC450050B220 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 66340A8B333A6DA1DA022EA3 /* Pods-MonashSport.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 77T8GSU52L;
 				INFOPLIST_FILE = MonashSport/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -449,9 +735,11 @@
 		};
 		64C3C4F620A1AC450050B220 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AEEB58F5B334EA654E958164 /* Pods-MonashSport.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 77T8GSU52L;
 				INFOPLIST_FILE = MonashSport/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -466,6 +754,7 @@
 		};
 		64C3C4F820A1AC450050B220 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AD662405908A69AC3F6324C1 /* Pods-MonashSportTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -486,6 +775,7 @@
 		};
 		64C3C4F920A1AC450050B220 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 88339AB6F26C6373F2D73DD8 /* Pods-MonashSportTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -506,6 +796,7 @@
 		};
 		64C3C4FB20A1AC450050B220 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C2DA8639EE2B5775197DC6E7 /* Pods-MonashSportUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -525,6 +816,7 @@
 		};
 		64C3C4FC20A1AC450050B220 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EB354894E3953A5FC24AA727 /* Pods-MonashSportUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
