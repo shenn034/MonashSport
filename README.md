@@ -1,6 +1,7 @@
 # MonashSport
 ### First of all, thanks to the api provider: stackhou/SwiftProgressHUD and gpbl/SwiftChart
 ### This is the assignment of Monash Uni FIT4039 Android and iOS development.
+[***Click here to see the demo***](https://youtu.be/W1dP0Q1mMDU)
 ### 1.1 Introduction
 This app going to be code is a running app combining with some game elements to record the users’ daily workouts and allow users to share their moments with their friends using this app.
 The purpose of this app is to appeal for a healthy life and attract more users to do workouts daily to keep fit.
