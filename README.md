@@ -57,6 +57,8 @@ Some people may be unwilling to do workouts every day, thus the adding of the ga
 ![](https://github.com/shenn034/hello-world/blob/master/raw_1517319718.png)   
 This icon was designed by myself and indicates the meaning of healthy life. The cartoon sytle will construct a relaxing feeling for the users.
 
+## For more details, the Assignment1.docx in this repository will help to achieve a more comprehensive understanding of this application.
+
 [***Click here to see the video demo***](https://youtu.be/if6H4prL8vw)
 ![](https://github.com/shenn034/hello-world/blob/master/platform.jpg)
 
