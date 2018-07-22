@@ -60,5 +60,5 @@ This icon was designed by myself and indicates the meaning of healthy life. The 
 ## For more details, the Assignment1.docx in this repository will help to achieve a more comprehensive understanding of this application.
 
 [***Click here to see the demo***](https://youtu.be/if6H4prL8vw)
-![](https://github.com/shenn034/hello-world/blob/master/platform.jpg)
+![](https://github.com/shenn034/hello-world/blob/master/monash_sport.png)
 
