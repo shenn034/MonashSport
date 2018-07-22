@@ -54,7 +54,7 @@ Some people may be unwilling to do workouts every day, thus the adding of the ga
 32. Add button is provided to add the user.
 
 #### Icon Desing:
-![](https://github.com/shenn034/hello-world/blob/master/raw_1517319718.png)
+![](https://github.com/shenn034/hello-world/blob/master/raw_1517319718.png)   
 This icon was designed by myself and indicates the meaning of healthy life. The cartoon sytle will construct a relaxing feeling for the users.
 
 [***Click here to see the video demo***](https://youtu.be/if6H4prL8vw)
